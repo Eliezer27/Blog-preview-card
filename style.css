@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Figtree;
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+body{
+    margin: 0;
+    background: hsl(47, 88%, 63%);
+    font-family: Figtree;
+}
+.card{
+    width: 320px;
+    /*height: 400px;*/
+    background-color: hsl(0, 0%, 100%);
+    margin: auto;
+    margin-top:70px;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    box-shadow: 7px 6px 0px 0px;
+}
+.img_card{
+    width: 290px;
+    margin-top: 20px;
+    border-radius: 9px;
+}
+.title-box{
+    width:85px;
+    background-color:hsl(47, 88%, 63%);
+    margin-left: 15px;
+    border-radius: 5px;
+}
+.title{
+    padding-right: 10px;
+    font-size: 13px;        
+    position: relative;
+    margin-left: 10px;
+    padding: 5px;
+    text-align: left;
+}
+h3{
+    font-size: 13px;
+    padding-right: 50%;
+    font-weight: normal;
+}
+.subtitle{
+    font-size: 19px;
+    padding-right: 57px;
+}
+.content-text{
+    text-align: start;
+    padding: 20px;
+}
+.profile-content{
+    display: flex;
+    align-items: center;
+    margin-right: 100%;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding-top: 0;
+
+}
+.profile-img{
+    width:35px;
+    margin-left:  20px ;
+    padding-right: 70%;
+}
+.name{
+    white-space: nowrap;
+    font-weight: bold;
+}
